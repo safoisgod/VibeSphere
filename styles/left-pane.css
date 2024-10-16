@@ -1,0 +1,32 @@
+/* left pane */
+.left-pane{
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+}
+
+
+/* important links within the left pane */
+.imp-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    margin-bottom: 30px;
+    width: fit-content;
+}
+
+/* images within the anchor tag of the important links*/
+.imp-links a img{
+    width: 30px;
+    padding-right: 15px;
+}
+
+/* specifying the profile pic which was placed in a separate div*/
+.imp-links div a img{
+    height: 30px;
+    width: 30px;
+    border-radius:50%;
+    object-fit: cover;   
+}

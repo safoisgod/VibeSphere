@@ -1,0 +1,7 @@
+.right-pane{
+    background-color: #0c61c4;
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+}
